@@ -1,0 +1,18 @@
+Why big O notation? 
+Well we need to decide which solutions are most effective. There are many solutions to one problem, so how do we know which is the most efficient. 
+Why does it matter? 
+Interviewing!! Technical challenges!! working at a large company with millions of data peices. Performance matters. Its helpful to talk about multiple solutions because all are different and may benefit in some areas that others dont. When debugging code it helps to understand why this behavior is happening. 
+Counting operations. 
+Count the operations in the function. The plus the equals the multiplication. Those are operations. 
+You can think of big o notation as looking at a graph from outer space, we just want big picture trends we can see. that is how we determine the time complexity. 
+
+
+
+Big O of arrays side notes:
+Accessing items in an array is always contant time no matter how big. 
+
+Mastering Patterns . 
+Differnent patterns or mechanisms you can put in. 
+
+
+Write a function called sane, which accepts two arrays. The function should return true if every vlau
