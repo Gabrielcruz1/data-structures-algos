@@ -8,7 +8,7 @@
 // There's a lot of applications for this.
 
 
-//A function called same which accepts to arrays and the function should return true if every value in the array has its corresponding values squared in the second array.
+//A function called same which accepts two arrays and the function should return true if every value in the array has its corresponding values squared in the second array.
 function same(arr1, arr2) {
     if (arr1.length !== arr2.length) {
         return false;

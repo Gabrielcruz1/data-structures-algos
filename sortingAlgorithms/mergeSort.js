@@ -3,7 +3,9 @@ function merge(arr1, arr2){
     let results = [];
     let i = 0;
     let j = 0;
+    //applies when looping through both arrays at the same time 
     while(i < arr1.length && j < arr2.length){
+        //if arr 1 has the smaller value push in array 1 value into results array
         if(arr2[j] > arr1[i]){
             results.push(arr1[i]);
             i++;
@@ -12,6 +14,7 @@ function merge(arr1, arr2){
             j++;
         }
     }
+    //once weve exhausted one array we will push in remaining values from one array into our results array. Below are both test cases. 
     while(i < arr1.length) {
         results.push(arr1[i])
         i++;
