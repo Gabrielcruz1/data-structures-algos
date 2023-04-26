@@ -22,6 +22,9 @@ class Graph{
             const adjacentVertex = this.adjacencyList[vertex].pop();
             this.removeEdge(vertex, adjacentVertex);
         }
+        //once done looping 
+        //and done removing all edges that the vertex was connected to
+        //removes vertex and reference to it, the key. no more array. 
         delete this.adjacencyList[vertex]
     }
     depthFirstRecursive(start){
