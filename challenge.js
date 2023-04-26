@@ -31,9 +31,15 @@ const hardFizzBuzz = (num) => {
     return result
 };
 
-let testTwo = hardFizzBuzz(25)
-console.log(testTwo)
+// let testTwo = hardFizzBuzz(25)
+// console.log(testTwo)
 
-// const fizzBuzz = () => {
-//     console.log("hello")
-// }
+const reverseStringFunction = (str) => {
+    let result = str.split(' ').reverse().join(" ")
+    console.log(result)
+}
+
+let testThree = reverseStringFunction("the sky is blue")
+console.log(testThree)
+
+
