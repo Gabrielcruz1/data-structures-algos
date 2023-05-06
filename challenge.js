@@ -1,15 +1,15 @@
-function fizzBuzz(num){
+function fizzBuzz(num) {
     let result = [];
-    if(num % 3 === 0 && num % 5 === 0){
+    if (num % 3 === 0 && num % 5 === 0) {
         result.push("FizzBuzz");
-    } else if(num % 3 === 0){
+    } else if (num % 3 === 0) {
         result.push("Fizz");
-    } else if(num % 5 === 0){
+    } else if (num % 5 === 0) {
         result.push("Buzz");
     } else {
         console.log("nothing")
     }
-    return result; 
+    return result;
 };
 
 // let test = fizzBuzz(10)
@@ -17,12 +17,12 @@ function fizzBuzz(num){
 
 const hardFizzBuzz = (num) => {
     let result = [];
-    for(let i = 0; i <=  num; i++){
-        if(i % 3 === 0 && i % 5 === 0){
+    for (let i = 0; i <= num; i++) {
+        if (i % 3 === 0 && i % 5 === 0) {
             result.push("FizzBuzz");
-        } else if ( i % 3 === 0){
+        } else if (i % 3 === 0) {
             result.push("Fizz");
-        } else if( i % 5 === 0){
+        } else if (i % 5 === 0) {
             result.push("Buzz")
         } else {
             result.push(i.toString());
@@ -36,10 +36,8 @@ const hardFizzBuzz = (num) => {
 
 const reverseStringFunction = (str) => {
     let result = str.split(' ').reverse().join(" ")
-    console.log(result)
+    // console.log(result)
 }
 
 let testThree = reverseStringFunction("the sky is blue")
-console.log(testThree)
-
-
+// console.log(testThree)

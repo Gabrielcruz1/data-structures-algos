@@ -3,10 +3,8 @@
 // Hopefully you can see how it is a helpful pattern in this scenario.
 // Any time you have multiple pieces of data and you need to compare them in particular, if you need to
 // see if they consist of the same individual pieces, whether it's anagrams or you're trying to see if
-// they're if one array is equal to another array squared, each individual piece or what else have I seen?
+// they're if one array is equal to another array squared, each individual piece or
 // If you need to tell if numbers consist of the same digits just in a different order.
-// There's a lot of applications for this.
-
 
 //A function called same which accepts two arrays and the function should return true if every value in the array has its corresponding values squared in the second array.
 function same(arr1, arr2) {
