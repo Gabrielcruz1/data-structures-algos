@@ -16,7 +16,7 @@ function linearSearch(arr, val) {
 // while the left pointer comes before the right pointer 
 // create a pointer in the middle 
 // if you fine the valueyou want return the index 
-// if the value is too small, ove left pointer up 
+// if the value is too small, move left pointer up 
 // if the value is too large, move the right pointer down 
 // if you never find th value return -1 
 function binarySearch(arr, elem) {

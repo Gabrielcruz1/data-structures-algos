@@ -1,6 +1,5 @@
 ////////////   FREQUENCY COUNTERS -- COMMON PATTERNS   /////////////////
 
-// Hopefully you can see how it is a helpful pattern in this scenario.
 // Any time you have multiple pieces of data and you need to compare them in particular, if you need to
 // see if they consist of the same individual pieces, whether it's anagrams or you're trying to see if
 // they're if one array is equal to another array squared, each individual piece or
@@ -34,8 +33,6 @@ function same(arr1, arr2) {
     return true
 }
 // console.log(same([1,2,3,2],[9,1,4,4]))
-
-
 
 
 //Given two strings write a function to determine if the second string is an anagram of the first.
