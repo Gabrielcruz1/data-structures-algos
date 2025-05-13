@@ -8,11 +8,11 @@ function linearSearch(arr, val) {
 }
 // console.log(linearSearch([34,56,1,2], 1))
 
-//BINARY SEARCH 
+// BINARY SEARCH 
 // ONLY WORKS ON SORTED ARRAYS - divide and conquer 
 
-//write a function accepts a sorted array and a value
-//create a left pointer at the start of array, and a right pointer at teh end of the array
+// write a function accepts a sorted array and a value
+// create a left pointer at the start of array, and a right pointer at teh end of the array
 // while the left pointer comes before the right pointer 
 // create a pointer in the middle 
 // if you fine the valueyou want return the index 

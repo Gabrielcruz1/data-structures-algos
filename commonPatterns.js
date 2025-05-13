@@ -35,7 +35,7 @@ function same(arr1, arr2) {
 // console.log(same([1,2,3,2],[9,1,4,4]))
 
 
-//Given two strings write a function to determine if the second string is an anagram of the first.
+// Given two strings write a function to determine if the second string is an anagram of the first.
 function validAnagram(first, second) {
     if (first.length !== second.length) {
         return false;
@@ -44,7 +44,7 @@ function validAnagram(first, second) {
 
     for (let i = 0; i < first.length; i++) {
         let letter = first[i];
-        // if letter exists, increment, otherwise set tp 1 
+        // if letter exists, increment, otherwise set to 1 
         lookup[letter] ? lookup[letter] += 1 : lookup[letter] = 1;
     }
     console.log(lookup)
@@ -61,11 +61,11 @@ function validAnagram(first, second) {
 };
 // console.log(validAnagram("anagram", "nagaram"))
 
-
-
 ////////////   MULTIPLE POINTERS  -- COMMON PATTERNS   /////////////////
 
-//Write a function called sumZero which accepts a sorted array of intergers. The fucntion should find the first pair where the sum is 0. Return an array that includes both values that sum to zero or undefined if a pair does not exist. 
+// Write a function called sumZero which accepts a sorted array of intergers. 
+// The fucntion should find the first pair where the sum is 0. 
+// Return an array that includes both values that sum to zero or undefined if a pair does not exist. 
 function sumZero(arr) {
     let left = 0;
     let right = arr.length - 1;
