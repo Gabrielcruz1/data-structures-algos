@@ -48,11 +48,11 @@ class WeightedGraph {
                     let candidate = distances[smallest] + nextNode.weight;
                     let nextNeighbor = nextNode.node;
                     if(candidate < distances[nextNeighbor]){
-                        //updating new smallest distance to neighbor
+                        // updating new smallest distance to neighbor
                         distances[nextNeighbor] = candidate;
-                        //updating previous - How we got to neighbor
+                        // updating previous - How we got to neighbor
                         previous[nextNeighbor] = smallest;
-                        //enqueue in priority queue with new priority
+                        // enqueue in priority queue with new priority
                         nodes.enqueue(nextNeighbor, candidate);
                     }
                 }
