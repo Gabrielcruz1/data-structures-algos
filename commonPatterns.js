@@ -102,7 +102,8 @@ function countUniqueValues(arr) {
 
 ////////////   SLIDING WINDOWS  -- COMMON PATTERNS   /////////////////
 
-//Write a function called maxSubarraySum which accepts an array of integers and a number called n. The function should calculate the maximun sum of n consecutive elements in the array. 
+// Write a function called maxSubarraySum which accepts an array of integers and a number called n. 
+// The function should calculate the maximun sum of n consecutive elements in the array. 
 function maxSubarraySum(arr, num) {
     let maxSum = 0;
     let tempSum = 0;
